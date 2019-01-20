@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-image: url(../Asset/img/fondo.jpg);
+    background-size: cover;
 }
 nav{
     background-color: white;
@@ -20,8 +21,12 @@ nav{
     display: inline-block;
 }
 
-.left-nav div, .home-banner div {
+.left-nav div, .center-nav, .home-banner div {
     display: inline-block;
+}
+
+.center-nav{
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
